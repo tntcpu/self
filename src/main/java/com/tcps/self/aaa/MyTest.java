@@ -9,12 +9,9 @@ import java.text.NumberFormat;
  **/
 public class MyTest {
     public static void main(String[] args) {
-        NumberFormat currencyInstance = NumberFormat.getCurrencyInstance();
-        NumberFormat percentInstance = NumberFormat.getPercentInstance();
-        NumberFormat integerInstance=NumberFormat.getIntegerInstance();
-        double x = 1;
-        System.out.println(currencyInstance.format(x));
-        System.out.println(percentInstance.format(x));
-        System.out.println(integerInstance.format(x));
+        StringBuilder a = new StringBuilder();
+        StringBuilder b = new StringBuilder("To do:\n");
+        System.out.println(a);
+        System.out.println(b);
     }
 }
