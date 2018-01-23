@@ -1,4 +1,4 @@
-package com.tcps.self.core.Object.Param;
+package com.tcps.self.core.Object.param;
 
 /**
  * @author ZhangZhentao

@@ -1,5 +1,8 @@
 package com.tcps.self.aaa;
 
+import sun.plugin2.os.windows.Windows;
+
+import java.awt.*;
 import java.text.NumberFormat;
 
 /**
@@ -9,9 +12,9 @@ import java.text.NumberFormat;
  **/
 public class MyTest {
     public static void main(String[] args) {
-        StringBuilder a = new StringBuilder();
-        StringBuilder b = new StringBuilder("To do:\n");
-        System.out.println(a);
-        System.out.println(b);
+       double a = 3.1;
+       double b = 3.9;
+        System.out.println((int)a);
+        System.out.println((int)b);
     }
 }

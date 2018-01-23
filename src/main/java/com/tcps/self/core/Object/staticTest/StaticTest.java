@@ -1,8 +1,4 @@
-package com.tcps.self.core.Object.Static;
-
-import com.tcps.self.core.Object.Employee.EmployeeTest;
-
-import java.time.LocalDate;
+package com.tcps.self.core.Object.staticTest;
 
 /**
  * @author ZhangZhentao

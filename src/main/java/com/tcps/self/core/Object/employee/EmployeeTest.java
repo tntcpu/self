@@ -1,4 +1,4 @@
-package com.tcps.self.core.Object.Employee;
+package com.tcps.self.core.Object.employee;
 
 import java.time.LocalDate;
 

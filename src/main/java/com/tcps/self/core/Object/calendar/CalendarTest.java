@@ -1,4 +1,4 @@
-package com.tcps.self.core.Object.Calendar;
+package com.tcps.self.core.Object.calendar;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
