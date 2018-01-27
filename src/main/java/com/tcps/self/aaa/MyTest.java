@@ -1,9 +1,13 @@
 package com.tcps.self.aaa;
 
+import com.tcps.self.core.Object.objectAnalyzer.ObjectAnalyzer;
 import sun.plugin2.os.windows.Windows;
 
 import java.awt.*;
+import java.lang.reflect.Array;
 import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * @author ZhangZhentao
@@ -12,9 +16,5 @@ import java.text.NumberFormat;
  **/
 public class MyTest {
     public static void main(String[] args) {
-       double a = 3.1;
-       double b = 3.9;
-        System.out.println((int)a);
-        System.out.println((int)b);
     }
 }
