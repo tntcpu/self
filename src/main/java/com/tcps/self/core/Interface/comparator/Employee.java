@@ -1,4 +1,4 @@
-package com.tcps.self.core.Interface;
+package com.tcps.self.core.Interface.comparator;
 
 /**
  * @author ZhangZhentao

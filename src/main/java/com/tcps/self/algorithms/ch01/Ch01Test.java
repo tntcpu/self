@@ -9,7 +9,7 @@ import java.util.Arrays;
  **/
 public class Ch01Test {
     public static void main(String[] args) {
-        Arrays.sort();
-        Arrays.binarySearch();
+//        Arrays.sort();
+//        Arrays.binarySearch();
     }
 }

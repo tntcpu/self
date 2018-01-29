@@ -1,13 +1,6 @@
 package com.tcps.self.aaa;
 
-import com.tcps.self.core.Object.objectAnalyzer.ObjectAnalyzer;
-import sun.plugin2.os.windows.Windows;
-
-import java.awt.*;
-import java.lang.reflect.Array;
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
+import com.tcps.self.core.Interface.comparator.Employee;
 
 /**
  * @author ZhangZhentao
@@ -16,5 +9,14 @@ import java.util.Arrays;
  **/
 public class MyTest {
     public static void main(String[] args) {
+        String a = "abc";
+        String b = "abc";
+        System.out.println(b.hashCode());
+        System.out.println(b.hashCode());
+        System.out.println(a.hashCode());
+        System.out.println(a.hashCode());
+        a = "cde";
+        System.out.println(a.hashCode());
+
     }
 }
