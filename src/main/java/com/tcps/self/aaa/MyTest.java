@@ -2,6 +2,14 @@ package com.tcps.self.aaa;
 
 import com.tcps.self.core.Interface.comparator.Employee;
 
+import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author ZhangZhentao
  * @project self
@@ -9,14 +17,7 @@ import com.tcps.self.core.Interface.comparator.Employee;
  **/
 public class MyTest {
     public static void main(String[] args) {
-        String a = "abc";
-        String b = "abc";
-        System.out.println(b.hashCode());
-        System.out.println(b.hashCode());
-        System.out.println(a.hashCode());
-        System.out.println(a.hashCode());
-        a = "cde";
-        System.out.println(a.hashCode());
-
+        long timestamp = System.currentTimeMillis();
+        System.out.println(timestamp);
     }
 }
