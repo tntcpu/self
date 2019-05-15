@@ -1,14 +1,6 @@
 package com.tcps.self.aaa;
 
-import com.tcps.self.core.Interface.comparator.Employee;
-
-import java.sql.Timestamp;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.HashMap;
-import java.util.Map;
+import java.time.LocalTime;
 
 /**
  * @author ZhangZhentao
@@ -16,8 +8,8 @@ import java.util.Map;
  * @create 2018-01-13 12:28
  **/
 public class MyTest {
-    public static void main(String[] args) {
-        long timestamp = System.currentTimeMillis();
-        System.out.println(timestamp);
-    }
+	public static void main(String[] args) throws InterruptedException {
+		LocalTime endTime = LocalTime.parse("23:00");
+		System.out.println(LocalTime.MAX);
+	}
 }
